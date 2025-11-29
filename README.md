@@ -43,7 +43,7 @@ streamlit run vault.py
 
 ## 📖 Usage
 
-1. **Connect wallet** (use .env or enter manually)
+1. **Connect wallet** (use .env or enter manually in the streamlit app)
 2. **Upload image** → Click "Upload to IPFS"
 3. **Set amount & unlock date**
 4. **Lock & Mint** → Get your NFT
