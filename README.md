@@ -26,7 +26,7 @@ Create a `.env` file:
 ```env
 RPC_URL=https://mainnet.base.org
 CHAIN_ID=8453
-CONTRACT_ADDRESS=0xYourContractAddress
+CONTRACT_ADDRESS=0xYourContractAddressAfterRemixDeploying
 PRIVATE_KEY=0xYourPrivateKey
 EXPLORER=https://basescan.org
 PINATA_API_KEY=your_pinata_api_key
@@ -58,7 +58,7 @@ streamlit run vault.py
 
 ## 📜 Smart Contract
 
-Deploy with remix IDE
+Deploy vault.sol with remix IDE
 
 Main functions:
 - `deposit(unlockTime, tokenURI)` - Lock ETH & mint NFT
